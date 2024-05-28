@@ -185,6 +185,7 @@ Original Audio
 <img width="763" alt="Screenshot 2024-05-28 at 17 14 27" src="https://github.com/sreejakr/Speech-Emotion-Recognition/assets/58878572/566c75dd-dcc1-4c67-b06d-1f2f9447e393">
 
 Augmented signal
+
 <img width="771" alt="Screenshot 2024-05-28 at 17 15 40" src="https://github.com/sreejakr/Speech-Emotion-Recognition/assets/58878572/0fe68677-78c3-4db3-bf2d-0015cabadc9b">
 
 <img width="764" alt="Screenshot 2024-05-28 at 17 15 26" src="https://github.com/sreejakr/Speech-Emotion-Recognition/assets/58878572/b3369a7a-6e77-42f1-815a-469a4561d506">
@@ -193,6 +194,35 @@ Augmented signal
 
 <img width="764" alt="Screenshot 2024-05-28 at 17 15 34" src="https://github.com/sreejakr/Speech-Emotion-Recognition/assets/58878572/3843fc19-4667-4e40-971a-d23ba4a73cdb">
 
+Note: For emotion detection tasks, inverting polarity might not be a relevant augmentation technique. 
+
+-----------------------------------------------------------------------------------------
+# Feature Extraction Methods 
+
+**Zero Crossing Rate (ZCR)**
+
+Description: Measures how often the signal crosses the horizontal axis.
+Usage: Indicates the noisiness of the signal.
+
+**Chroma STFT**
+
+Description: Represents the 12 different pitch classes (Chroma) over time.
+Usage: Useful for identifying harmony and chords in music.
+
+**MFCC (Mel-Frequency Cepstral Coefficients)**
+
+Description: Represents the short-term power spectrum of sound.
+Usage: Commonly used in speech and audio processing, captures timbral texture.
+
+**Mel Spectrogram**
+
+Description: Spectrogram mapped to the Mel scale (perceived pitch).
+Usage: Captures frequency content over time, important for audio classification.
+
+**Tonnetz (Tonnetz Features)**
+
+Description: Represents tonal properties of music.
+Usage: Useful for analyzing harmony and tonality.
 
 
 
