@@ -1,4 +1,4 @@
-<img width="427" alt="Screenshot 2024-05-28 at 17 02 04" src="https://github.com/sreejakr/Speech-Emotion-Recognition/assets/58878572/2ce1bd0c-0ffd-4cd9-8456-3b10a39a430d"><img width="445" alt="Screenshot 2024-05-28 at 17 01 54" src="https://github.com/sreejakr/Speech-Emotion-Recognition/assets/58878572/e5be96dd-2523-4c27-990e-6154e4e1441c"><img width="424" alt="Screenshot 2024-05-28 at 17 01 40" src="https://github.com/sreejakr/Speech-Emotion-Recognition/assets/58878572/895b6bb3-fe40-4a6c-b643-0f44d6d593f6"><img width="430" alt="Screenshot 2024-05-28 at 17 01 09" src="https://github.com/sreejakr/Speech-Emotion-Recognition/assets/58878572/1149183c-5f71-4e49-bd83-13d5509bd665"># Speech-Emotion-Recognition
+# Speech-Emotion-Recognition
 
 About Dataset
 Context
