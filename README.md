@@ -224,6 +224,46 @@ Usage: Captures frequency content over time, important for audio classification.
 Description: Represents tonal properties of music.
 Usage: Useful for analyzing harmony and tonality.
 
+-----------------------------------------------------------------------------------------
 
 
+# Training 
+**1. Convolutional Neural Network (CNN)**
+Description:
+The Convolutional Neural Network (CNN) is a deep learning model commonly used for image and audio processing tasks. In this project, we employed a CNN architecture for audio emotion detection.
+
+Architecture:
+
+The CNN consists of multiple convolutional layers followed by max-pooling layers to extract relevant features from the input audio data.
+We incorporated convolutional layers with increasing filter sizes to capture both low-level and high-level features.
+Activation functions such as ReLU (Rectified Linear Unit) were used to introduce non-linearity into the model.
+Dropout layers were added to prevent overfitting during training.
+
+
+**2. XGBoost**
+Description:
+XGBoost (Extreme Gradient Boosting) is a machine learning algorithm known for its efficiency and effectiveness in handling structured data. Although primarily used for tabular data, we experimented with XGBoost for audio emotion detection.
+
+Algorithm:
+
+XGBoost operates on an ensemble learning approach, where multiple decision trees are trained sequentially to improve predictive performance.
+It utilizes gradient boosting, which iteratively builds decision trees to correct the errors of the previous models.
+
+
+**3. VGGish for Feature Extraction**
+Description:
+VGGish is a pre-trained neural network specifically designed for feature extraction from audio data. It captures essential characteristics from raw audio waveforms, making it suitable for various audio-related tasks, including audio emotion detection.
+
+Architecture:
+
+VGGish comprises several layers, including convolutional and pooling layers, followed by fully connected layers.
+During training, VGGish learns to extract meaningful representations from raw audio signals, capturing spectral content, temporal dynamics, and tonal structure.
+We used VGGish to extract audio features, which were then fed into a separate classifier for emotion prediction.
+
+-----------------------------------------------------------------------------------------
+
+# Overall Observation
+
+**Best Performing Model:** Among the tested approaches, the CNN model combined with VGGish feature extraction showed the most promising results in terms of accuracy.
+**Further Exploration:** While the models provided valuable insights, additional experimentation with different architectures, hyperparameters, and feature extraction techniques could yield better performance.
 
